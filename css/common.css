@@ -37,6 +37,12 @@ body {
     letter-spacing: 0.03em;
 }
 
+/*CONTAINER*/
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 /*-----------------------LOGO TOP & FOOTER-------------------------*/
 .logo {
     color: var(--accent-color);
