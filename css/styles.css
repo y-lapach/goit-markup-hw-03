@@ -5,16 +5,19 @@
     padding: 200px 0;
 }
 .hero .hero-title {
+    margin-bottom: 30px;
     color: var(--primary-white);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    margin-bottom: 30px;
 }
 .hero .hero-btn {
     display: inline-block;
+    padding: 10px 32px;
+    min-width: 216px;
+    border-radius: 4px;
     color: var(--primary-white);
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -23,14 +26,19 @@
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
-    border-radius: 4px;
-    padding: 10px 32px;
-    min-width:216px;
     cursor: pointer;
 }
 
 /*-----------------------SECTION-------------------------*/
+.section {
+    padding-top:94px;
+    padding-bottom:94px;
+}
+.section.no-padding {
+    padding-top: 0px;
+}
 .section-title {
+    margin-bottom: 50px;
     color: var(--text-color-darkgrey);
     font-size: 36px;
     line-height: 1.17;
@@ -40,6 +48,7 @@
 
 /*-----FEATURES-----*/
 .features .title {
+    margin-bottom: 10px;
     color: var(--text-color-darkgrey);
     font-size: 14px;
     line-height: 1.14;
@@ -54,20 +63,24 @@
 .team {
     background-color: var(--bg-light-grey);
 }
-.team-list li {
+.team-list > .team-item {
     background-color: var(--primary-white);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+}
+.team-list .team-member {
+    padding:30px 10px;
 }
 .team-list .team-title {
     color: var(--text-color-darkgrey);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
 }
 .team-list .team-text {
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
 }
 
 /*-----------------------PORTFOLIO-------------------------*/

@@ -25,10 +25,6 @@ html {
 *::after {
     box-sizing: inherit;
 }
-* {
-    margin: 0;
-    padding: 0;
-}
 button {
     border-width: 0px;
 }
@@ -40,6 +36,16 @@ body {
     letter-spacing: 0.03em;
 }
 
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 /*-----------------------CONTAINER-----------------------*/
 .container {
     width: 1170px;
@@ -47,6 +53,7 @@ body {
     padding: 0 15px;
 }
 /*-----------------------LOGO TOP & FOOTER-------------------------*/
+
 .logo {
     color: var(--accent-color);
     font-family: var(--font-rale);
@@ -57,6 +64,12 @@ body {
     text-decoration: none;
 }
 
+header a.logo {
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 .logo-header {
     color: var(--logo-color-header);
 }
@@ -65,7 +78,16 @@ body {
     color: var(--primary-white);
 }
 
+footer a.logo {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
 /*-----------------------HEADER-------------------------*/
+.site-nav .site-nav-item {
+    padding-top:32px;
+    padding-bottom:32px;
+}
 .site-nav .link {
     font-weight: 500;
     font-size: 14px;
@@ -84,6 +106,10 @@ body {
     color: var(--accent-color);
 }
 
+.contacts-list .contacts-list-item {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 .contacts-list .contacts-link {
     color: var(--text-color-grey);
     font-weight: 500;
@@ -100,11 +126,17 @@ body {
 
 /*-----------------------FOOTER-------------------------*/
 footer {
+    padding-top:60px;
+    padding-bottom: 60px;
     background-color: var(--footer-bg);
 }
 
 address {
     font-style: normal;
+}
+
+.ftr-location {
+    margin-bottom: 9px;
 }
 
 .ftr-address {
@@ -114,7 +146,13 @@ address {
     letter-spacing: 0.03em;
 }
 
-.ftr-address .address-link {
+.ftr-contacts > li {
+    margin-bottom: 9px;
+}
+.ftr-contacts>li:last-child {
+    margin-bottom: 0;
+}
+.ftr-contacts .address-link {
     color: var(--ftr-address-contacts);
     font-size: 14px;
     line-height: 1.71;
@@ -122,11 +160,7 @@ address {
     text-decoration: none;
 }
 
-.ftr-address .address-link:hover,
-.ftr-address .address-link:focus {
+.ftr-contacts .address-link:hover,
+.ftr-contacts .address-link:focus {
     color: var(--accent-color);
-}
-
-.list {
-    list-style: none;
 }
