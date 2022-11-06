@@ -84,6 +84,9 @@ footer a.logo {
 }
 
 /*-----------------------HEADER-------------------------*/
+header {
+    border-bottom: 1px solid #ECECEC;
+}
 .site-nav .site-nav-item {
     padding-top:32px;
     padding-bottom:32px;

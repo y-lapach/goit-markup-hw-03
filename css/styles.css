@@ -107,6 +107,11 @@
 .projects a {
     text-decoration: none;
 }
+.projects .project-desc {
+    padding:20px 24px;
+    border: 1px solid #EEEEEE;
+    border-top: none;
+}
 .projects .projects-title {
     color: var(--text-color-darkgrey);
     font-size: 18px;
