@@ -29,6 +29,9 @@ html {
     margin: 0;
     padding: 0;
 }
+button {
+    border-width: 0px;
+}
 
 body {
     background-color: var(--primary-white);
@@ -37,7 +40,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-/*CONTAINER*/
+/*-----------------------CONTAINER-----------------------*/
 .container {
     width: 1170px;
     margin: 0 auto;
