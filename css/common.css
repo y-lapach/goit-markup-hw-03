@@ -1,0 +1,115 @@
+:root {
+    /*Fonts*/
+    --font-rale: 'Raleway', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+    /*General colors*/
+    --primary-white: #ffffff;
+    --accent-color: #2196F3;
+    /*LOGO*/
+    --logo-color-header: #000000;
+    /*Text colors*/
+    --text-color-darkgrey: #212121;
+    --text-color-grey: #757575;
+    --ftr-address-contacts:rgba(255, 255, 255, 0.6);
+    /*Backgrounds*/
+    --bg-light-grey: #F5F4FA;
+    --hero-bg:#2F303A;
+    --footer-bg: #2F303A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--primary-white);
+    color: var(--text-color-grey);
+    font-family: var(--font-roboto);
+    letter-spacing: 0.03em;
+}
+
+/*-----------------------LOGO TOP & FOOTER-------------------------*/
+.logo {
+    color: var(--accent-color);
+    font-family: var(--font-rale);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-header {
+    color: var(--logo-color-header);
+}
+
+.logo-footer {
+    color: var(--primary-white);
+}
+
+/*-----------------------HEADER-------------------------*/
+.site-nav .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--text-color-darkgrey);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.contacts-list .contacts-link {
+    color: var(--text-color-grey);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.contacts-list .contacts-link:hover,
+.contacts-list .contacts-link:focus {
+    color: var(--accent-color);
+}
+
+/*-----------------------FOOTER-------------------------*/
+footer {
+    background-color: var(--footer-bg);
+}
+
+address {
+    font-style: normal;
+}
+
+.ftr-address {
+    color: var(--primary-white);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.ftr-address .address-link {
+    color: var(--ftr-address-contacts);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.ftr-address .address-link:hover,
+.ftr-address .address-link:focus {
+    color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}

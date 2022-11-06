@@ -1,0 +1,106 @@
+/*-----------------------HERO SECTION-------------------------*/
+.hero {
+    background-color: var(--hero-bg);
+}
+.hero .hero-title {
+    color: var(--primary-white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero .hero-btn {
+    color: var(--primary-white);
+    background-color: var(--accent-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+    display: flex;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+/*-----------------------SECTION-------------------------*/
+.section-title {
+    color: var(--text-color-darkgrey);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    
+}
+
+/*-----FEATURES-----*/
+.features .title {
+    color: var(--text-color-darkgrey);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.features .text {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/*-----TEAM-----*/
+.team {
+    background-color: var(--bg-light-grey);
+}
+.team-list li {
+    background-color: var(--primary-white);
+}
+.team-list .team-title {
+    color: var(--text-color-darkgrey);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+.team-list .team-text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+/*-----------------------PORTFOLIO-------------------------*/
+/*-----FILTER BUTTONS-----*/
+.filter .filter-btn {
+    background-color: var(--bg-light-grey);
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;   
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.filter .filter-btn:hover,
+.filter .filter-btn:focus {
+    background-color: var(--accent-color);
+    color:var(--primary-white);
+}
+/*-----PROJECTS CARDS-----*/
+.projects li {
+    background-color: var(--primary-white);
+}
+.projects a {
+    text-decoration: none;
+}
+.projects .projects-title {
+    color: var(--text-color-darkgrey);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.projects .projects-text {
+    color: var(--text-color-grey);
+    font-size: 16px;
+    line-height: 1.9;
+}
