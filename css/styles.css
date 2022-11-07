@@ -1,8 +1,8 @@
 /*-----------------------HERO SECTION-------------------------*/
 .hero {
-    background-color: var(--hero-bg);
-    text-align: center;
     padding: 200px 0;
+    text-align: center;
+    background-color: var(--hero-bg);
 }
 .hero .hero-title {
     margin-bottom: 30px;
@@ -39,10 +39,10 @@
 }
 .section-title {
     margin-bottom: 50px;
+    text-align: center;
     color: var(--text-color-darkgrey);
     font-size: 36px;
     line-height: 1.17;
-    text-align: center;
     
 }
 
@@ -87,13 +87,13 @@
 /*-----FILTER BUTTONS-----*/
 .filter .filter-btn {
     padding: 6px 22px;
+    text-align: center;
+    border-radius: 4px;
     background-color: var(--bg-light-grey);
     font-family: var(--font-roboto);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.63;   
-    text-align: center;
-    border-radius: 4px;
+    line-height: 1.63;
     cursor: pointer;
 }
 
